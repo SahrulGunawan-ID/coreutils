@@ -36,3 +36,19 @@ Alpine Linux : https://www.alpinelinux.org/
 
 # Github Official
 Github Site : https://github.com
+
+# Binary Static No Strip
+https://raw.githubusercontent.com/SahrulGunawan-ID/coreutils/refs/heads/master/coreutils%2Bnostrip
+
+# Binary Static Full
+https://raw.githubusercontent.com/SahrulGunawan-ID/coreutils/refs/heads/master/coreutils%2Bstrip
+
+
+# Static + Debug + Nostrip
+````
+coreutils+nostrip:    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=69a1e6276f5b2a14bbf849e526791a8efe32e825, with debug_info, not stripped
+````
+# Static Full No Strip No Debug
+````
+coreutils+strip:      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+````
